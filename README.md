@@ -18,10 +18,6 @@ I've expanded StealerGo from Data **Collection to Troll Effects and PC Corruptio
       </ul>
     </li>
     <li><a href="#remote-access">Remote Access</a>
-      <ul>
-        <li><a href="#general-examples">General Examples</a></li>
-        <li><a href="#command-list">Command List</a></li>
-      </ul>
     </li>
     <li><a href="#stealer-loader">Stealer Loader</a>
       <ul>
