@@ -173,6 +173,9 @@ Example: `/send_file "123456789" "C:\my file.txt" "optional message"` <br />
 | `/whoa` | Start the Keanu Reeves "whoa" video loop (fetches random clip). |
 | `/stop_chaos` | Stop all chaos effects (including whoa loop). |
 
+<img width="423" height="283" alt="image" src="https://github.com/user-attachments/assets/daac96ac-7d2b-46a3-b507-f34d9b1e22ee" />
+<img width="392" height="259" alt="image" src="https://github.com/user-attachments/assets/e2731e50-26f3-45d4-a635-86723d6ebe4c" />
+
 > **Note:** Destructive commands (`/overwrite_mbr`, `/corrupt`, `/disk_fill`, etc.) ask for a `yes` confirmation before execution. <br />
 > **Note about browser decryption:** v20 decryption requires **Administrator privileges** – the bot will fail if not run as admin.
 
