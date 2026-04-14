@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="includes">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="client">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="virustotal">
+      <UniqueIdentifier>{d5b18551-4b4e-4a99-b806-c708e337a77d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="oxorany">
+      <UniqueIdentifier>{8ba97690-1630-44a6-98ed-4785aa154d29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entrypoint.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="injector.cpp">
+      <Filter>includes</Filter>
+    </ClCompile>
+    <ClCompile Include="oxorany\oxorany.cxx">
+      <Filter>oxorany</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\a64assembler.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\a64builder.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\a64compiler.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\a64emithelper.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\a64formatter.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\a64func.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\a64instapi.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\a64instdb.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\a64operand.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\a64rapass.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\arm\armformatter.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\archtraits.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\assembler.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\builder.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\codeholder.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\codewriter.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\compiler.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\constpool.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\cpuinfo.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\emithelper.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\emitter.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\emitterutils.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\environment.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\errorhandler.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\formatter.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\func.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\funcargscontext.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\globals.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\inst.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\jitallocator.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\jitruntime.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\logger.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\operand.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\osutils.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\ralocal.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\rapass.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\rastack.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\string.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\support.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\target.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\type.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\virtmem.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\zone.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\zonehash.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\zonelist.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\zonestack.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\zonetree.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\core\zonevector.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\x86\x86assembler.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\x86\x86builder.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\x86\x86compiler.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\x86\x86emithelper.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\x86\x86formatter.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\x86\x86func.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\x86\x86instapi.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\x86\x86instdb.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\x86\x86operand.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\extern\asmjit\x86\x86rapass.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\polyc\polyc.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+    <ClCompile Include="src\qengine\qhash\qhash.cpp">
+      <Filter>client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="log.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="injector.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="externals.h">
+      <Filter>client</Filter>
+    </ClInclude>
+    <ClInclude Include="oxorany\include.h">
+      <Filter>oxorany</Filter>
+    </ClInclude>
+    <ClInclude Include="oxorany\oxorany.h">
+      <Filter>oxorany</Filter>
+    </ClInclude>
+    <ClInclude Include="virustotal\virustotal.h">
+      <Filter>virustotal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\engine\hashtypes\qtype_hash.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\engine\polyhashtypes\qtype_enchash.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\engine\polytypes\qtype_enc.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\engine\qengine.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64archtraits_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64assembler.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64builder.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64compiler.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64emithelper_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64emitter.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64formatter_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64func_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64globals.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64instapi_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64instdb.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64instdb_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64operand.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64rapass_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\a64utils.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\armformatter_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\armglobals.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm\armoperand.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\api-build_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\api-config.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\archcommons.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\archtraits.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\assembler.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\builder.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\builder_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\codebuffer.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\codeholder.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\codewriter_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\compiler.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\compilerdefs.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\constpool.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\cpuinfo.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\emithelper_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\emitter.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\emitterutils_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\environment.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\errorhandler.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\formatter.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\formatter_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\func.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\funcargscontext_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\globals.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\inst.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\jitallocator.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\jitruntime.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\logger.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\misc_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\operand.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\osutils.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\osutils_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\raassignment_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\rabuilders_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\radefs_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\ralocal_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\rapass_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\rastack_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\string.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\support.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\support_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\target.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\type.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\virtmem.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\zone.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\zonehash.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\zonelist.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\zonestack.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\zonestring.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\zonetree.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core\zonevector.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86archtraits_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86assembler.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86builder.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86compiler.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86emithelper_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86emitter.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86formatter_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86func_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86globals.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86instapi_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86instdb.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86instdb_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86opcode_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86operand.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86\x86rapass_p.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\a64.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\arm.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\asmjit.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\asmjit-scope-begin.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\asmjit-scope-end.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\core.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\asmjit\x86.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\arm.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\arm64.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\capstone.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\evm.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\m68k.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\m680x.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\mips.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\platform.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\ppc.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\sparc.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\systemz.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\tms320c64x.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\x86.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\capstone\xcore.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\windowsce\intrin.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\windowsce\stdint.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone32\include\platform.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\arm.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\arm64.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\capstone.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\evm.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\m68k.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\m680x.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\mips.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\platform.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\ppc.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\sparc.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\systemz.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\tms320c64x.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\x86.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\capstone\xcore.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\windowsce\intrin.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\windowsce\stdint.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\extern\capstone64\include\platform.h">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\polyc\polyc.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qbase\qcallback.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qbase\qdef.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qbase\qexcept.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qhash\qhash.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qhook\qhook.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qhook\qhook_fn.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qhook\qhook_util.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qimport\qimport.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qmorph\qdisasm.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qmorph\qgen.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qutil\qcritical.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\qengine\qutil\qutil.hpp">
+      <Filter>includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
