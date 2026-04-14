@@ -173,7 +173,7 @@ Example: `/send_file "123456789" "C:\my file.txt" "optional message"` <br />
 | `/whoa` | Start the Keanu Reeves "whoa" video loop (fetches random clip). |
 | `/stop_chaos` | Stop all chaos effects (including whoa loop). |
 
-> **Note:** Destructive commands (`/overwrite_mbr`, `/corrupt`, `/disk_fill`, etc.) ask for a `yes` confirmation before execution.
+> **Note:** Destructive commands (`/overwrite_mbr`, `/corrupt`, `/disk_fill`, etc.) ask for a `yes` confirmation before execution. <br />
 > **Note about browser decryption:** v20 decryption requires **Administrator privileges** – the bot will fail if not run as admin.
 
 # Stealer Loader
