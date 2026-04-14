@@ -8,14 +8,6 @@ I've expanded StealerGo from Data **Collection to Troll Effects and PC Corruptio
   <summary>📑 Table of Contents</summary>
   <ol>
     <li><a href="#what-stealergo-collects">What StealerGo Collects</a>
-      <ul>
-        <li><a href="#network">Network</a></li>
-        <li><a href="#discord">Discord</a></li>
-        <li><a href="#mullvad">Mullvad</a></li>
-        <li><a href="#browser">Browser</a></li>
-        <li><a href="#exodus">Exodus</a></li>
-        <li><a href="#visual-studio">Visual Studio</a></li>
-      </ul>
     </li>
     <li><a href="#remote-access">Remote Access</a>
     </li>
