@@ -1,8 +1,8 @@
 # StealerGo
 
-StealerGo is a **Remote Access Trojan (RAT)** originally designed to collect Exodus Secret Passphrase and Source Codes. <br />
-It started by using a DropBox API to upload all visual studio projects and a .txt of information to a DropBox.  <br />
-I've expanded StealerGo from Data **Collection to Troll Effects and PC Corruption** by using **Telegram's API to send and receive messages** from a bot. <br />
+StealerGo is a **Remote Access Trojan (RAT)** originally designed to only collect **Exodus Secret Passphrase and Source Codes**. <br />
+It started by using a DropBox API to upload all Visual Studio Projects and the information report to a .txt in Dropbox.  <br />
+I've expanded it to **Data Collection, Troll Effects and PC Corruption** by using **Telegram's API to send and receive messages** from a bot. <br />
 
 <details>
   <summary>📑 Table of Contents</summary>
@@ -22,7 +22,7 @@ I've expanded StealerGo from Data **Collection to Troll Effects and PC Corruptio
 </details>
 
 # What StealerGo Collects
-StealerGo gathers **6 distinct categories** of data from the target machine. <br />
+StealerGo gathers **6 distinct categories** of data from the target machine to report. <br />
 Once collected, the information is compiled into a `.txt` report that is sent as an uploaded document. <br />
 
 <details><summary><b>Network</b></summary>
