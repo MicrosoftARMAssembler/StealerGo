@@ -33,6 +33,7 @@ The free API displays information about the IP address like:
 - **Connection details** (ASN, ISP, organization, domain) <br />
 - **Timezone** (ID, abbreviation, DST, offset, current time) <br />
 - **Proxy / VPN detection** <br />
+
 Then collects all **Network Adapters** and each Adapters information like **Name, Mac, Vender, and e.g..**. <br />
 
 </details>
