@@ -1,8 +1,8 @@
 # StealerGo
 
 StealerGo is a **Remote Access Trojan (RAT)** originally designed to only collect **Exodus Secret Passphrase and Source Codes**. <br />
-It started by using a DropBox API to upload all Visual Studio Projects and the information report to a .txt in Dropbox.  <br />
-I've expanded it to **Data Collection, Troll Effects and PC Corruption** by using **Telegram's API to send and receive messages** from a bot. <br />
+It started by dropping all Visual Studo projects and Exodus Passphare in a .txt report to Dropbox.  <br />
+Since then I've expanded it to **Collect More Data, Troll Effects, and PC Corruption** via Remote Access using **Telegram's API to send and receive** from a bot. <br />
 
 <details>
   <summary>📑 Table of Contents</summary>
@@ -28,12 +28,12 @@ Once collected, the information is compiled into a `.txt` report that is sent as
 <details><summary><b>Network</b></summary>
 
 StealerGo collects the **Local and Public IP Addresses** and **sends an HTTPS request to ipwho.is**. <br />
-Then collects all **Network Adapters** and there information like **Adapter Name, Mac Address, Vender, e.g..**. <br />
 The free API displays information about the IP address like:
 - **GeoLocation** (continent, country, region, city, postal code) <br />
 - **Connection details** (ASN, ISP, organization, domain) <br />
 - **Timezone** (ID, abbreviation, DST, offset, current time) <br />
 - **Proxy / VPN detection** <br />
+Then collects all **Network Adapters** and each Adapters information like **Name, Mac, Vender, and e.g..**. <br />
 
 </details>
 
