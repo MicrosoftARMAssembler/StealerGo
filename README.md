@@ -1,6 +1,6 @@
 # StealerGo
 
-StealerGo is a **Remote Access Trojan (RAT)** designed to achieve Remote Access via **Telegram's API to send and receive** from a bot. <br /> 
+StealerGo is a **Remote Access Trojan (RAT)** designed to achieve Remote Access by using **Telegram's API to send and receive** from a bot. <br /> 
 Originally started as a simple stealer to send the target's Exodus Passpharse and Visual Studio projects to Dropbox.  <br />
 I've expanded it from the simple stealer to a full **Remote Access Tool** that supports **Various Data Collection, Troll Effects and PC Corruption**. <br />
 
